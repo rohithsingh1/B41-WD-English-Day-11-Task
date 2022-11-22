@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f75ee6d0ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <form action="#">
+            <div class="Name-div">
+                <label for="firstName">Name<sup>*</sup></label>
+                <div class="Input-div">
+                    <div class="firstName">
+                        <input type="text" id="firstName" required>
+                        <span>First</span>
+                    </div>
+                    <div class="lastName">
+                        <input type="text" required>
+                        <span>Last</span>
+                    </div>
+                </div>
+            </div>
+            <div class="Email-div">
+                <label for="Email">Email<sup>*</sup></label>
+                <input type="email" id="Email">
+            </div>
+            <div class="Experience-div">
+                <label for="Rating">Your Experience<sup>*</sup></label>
+                <div class="Rating">
+                    <i class="Rate-star fa-solid fa-star"></i>
+                    <i class="Rate-star fa-solid fa-star"></i>
+                    <i class="Rate-star fa-solid fa-star"></i>
+                    <i class="Rate-star fa-solid fa-star"></i>
+                    <i class="Rate-star fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="Rate-div">
+                <span>Overall, how would you rate your experience with us</span>
+            </div>
+            <div class="Satified-div">
+                <label for="Satisfied">How satisfied are you with<sup>*</sup></label>
+                <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Very Unsatisfied</th>
+                        <th>Unsatisfied</th>
+                        <th>Neutral</th>
+                        <th>Satisfied</th>
+                        <th>Very Satisfied</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="special-td">Purchase</td>
+                        <td><input type="radio" name="Purchase"></td>
+                        <td><input type="radio" name="Purchase"></td>
+                        <td><input type="radio" name="Purchase"></td>
+                        <td><input type="radio" name="Purchase"></td>
+                        <td><input type="radio" name="Purchase"></td>
+                    </tr>
+                    <tr>
+                        <td class="special-td">Service</td>
+                        <td><input type="radio" name="Service"></td>
+                        <td><input type="radio" name="Service"></td>
+                        <td><input type="radio" name="Service"></td>
+                        <td><input type="radio" name="Service"></td>
+                        <td><input type="radio" name="Service"></td>
+                    </tr>
+                    <tr>
+                        <td class="special-td">Company Overall</td>
+                        <td><input type="radio" name="Company-Overall"></td>
+                        <td><input type="radio" name="Company-Overall"></td>
+                        <td><input type="radio" name="Company-Overall"></td>
+                        <td><input type="radio" name="Company-Overall"></td>
+                        <td><input type="radio" name="Company-Overall"></td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+            <div class="Likely-div">
+                <label for="Likely">How lokely are you to<sup>*</sup></label>
+                <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Very Unlikely</th>
+                        <th>Unlikely</th>
+                        <th>Neutral</th>
+                        <th>Likely</th>
+                        <th>Very Likely</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="special-td">Buy from us again</td>
+                        <td><input type="radio" name="Buy"></td>
+                        <td><input type="radio" name="Buy"></td>
+                        <td><input type="radio" name="Buy"></td>
+                        <td><input type="radio" name="Buy"></td>
+                        <td><input type="radio" name="Buy"></td>
+                    </tr>
+                    <tr>
+                        <td class="special-td">Recommend our products to others</td>
+                        <td><input type="radio" name="Recommend"></td>
+                        <td><input type="radio" name="Recommend"></td>
+                        <td><input type="radio" name="Recommend"></td>
+                        <td><input type="radio" name="Recommend"></td>
+                        <td><input type="radio" name="Recommend"></td>
+                    </tr>
+                    <tr>
+                        <td class="special-td">Recommend our company to others</td>
+                        <td><input type="radio" name="Company"></td>
+                        <td><input type="radio" name="Company"></td>
+                        <td><input type="radio" name="Company"></td>
+                        <td><input type="radio" name="Company"></td>
+                        <td><input type="radio" name="Company"></td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+            <div class="Suggestions-div">
+                <label for="Suggestions">Additional comments or suggestions</label>
+                <textarea id="Suggestions" cols="30" rows="10"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+    </main>
+</body>
+</html>
+
+
+
+
+
+

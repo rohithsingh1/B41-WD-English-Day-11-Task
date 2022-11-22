@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main{
+   margin-top: 1rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 2rem;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+}
+
+input,textarea{
+    display: block;
+    outline: none;
+    border-radius: 0.3rem;
+}
+sup{
+    color: red;
+}
+
+label{
+    font-weight: 700;
+}
+
+.Name-div,.Email-div,.Experience-div,.Suggestions-div,.Likely-div{
+    margin-bottom: 0.6rem;
+}
+
+.Satified-div{
+    margin-bottom: 1.2rem;
+}
+.Name-div .Input-div{
+    display: flex;
+}
+
+.Name-div .Input-div .firstName{
+    flex-basis: 20%;
+    flex-shrink: 1;
+    margin-right: 1.2rem;
+}
+
+.Name-div .Input-div .firstName span,.Name-div .Input-div .lastName span{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.Name-div .Input-div .lastName{
+    flex-basis: 20%;
+    flex-shrink: 1;
+}
+
+
+.Email-div input{
+    width: 38%;
+}
+
+
+.Experience-div .Rating .Rate-star{
+    color: #eeac82;
+}
+
+
+.Rate-div span{
+    font-size: 0.8rem;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table thead tr th{
+    text-align: center;
+}
+
+table tbody tr .special-td{
+    width: 15%;
+} 
+
+input[type='radio']{
+    text-align: right;
+    margin: auto;
+}
+table tbody tr:nth-of-type(2n+1){
+    background-color: #f1f1f1;
+}
+
+
+
+.Suggestions-div textarea{
+    width: 98%;
+    height: 16vh;
+    border-radius: 0.5rem;
+}
+
+button{
+    width: fit-content;
+    padding: 0.5rem 0.4rem;
+    outline: none;
+    box-shadow: none;
+    font-weight: 600;
+}
+
+
+
+
+
+
